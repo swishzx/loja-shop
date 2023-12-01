@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="PT_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Página de Pagamento</title>
+</head>
+<body>
+    <!-- Cabeçalho com a logo da marca -->
+    <header>
+        <a href="index.html"><img src="images/wwwwwwwwwwwwww.png" alt=""width="150px"></a>
+    </header>
+
+    <!-- Contêiner principal -->
+    <div class="container">
+        <!-- Formulário de pagamento -->
+        <form action="#" method="post" id="payment-form" >
+            <!-- Campo para o número do cartão -->
+            <label for="card-number">Número do Cartão:</label>
+            <input type="text" id="card-number" name="card-number" placeholder="Número do Cartão" required>
+
+            <!-- Campo para o titular do cartão -->
+            <label for="card-holder">Titular do Cartão:</label>
+            <input type="text" id="card-holder" name="card-holder" placeholder="Titular do Cartão" required>
+
+            <!-- Campo para a data de expiração -->
+            <label for="expiration-date">Data de Expiração:</label>
+            <input type="text" id="expiration-date" name="expiration-date" placeholder="MM/AA" required>
+
+            <!-- Campo para o CVV -->
+            <label for="cvv">CVV:</label>
+            <input type="text" id="cvv" name="cvv" placeholder="Código de Segurança" required>
+
+            <!-- Botão de pagamento -->
+            <button type="submit" class="pay-button">Pagar</button>
+        </form>
+    </div>
+</body>
+</html>

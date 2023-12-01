@@ -1,0 +1,118 @@
+body{ /* define as configurações do bodyde todas as paginas*/
+    background-color: #1c1c1c;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.botão{ /* faz a confguração dos botões verlhemos de compra e de ver cada tipo de item da pagina */
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #DC143C;
+    color: #FFFFFF;
+    display: inline-block;
+    border-radius: 10px; 
+    font-size: 16px;
+
+}
+h2{ /*configura o h2*/
+    margin-top: 5px;
+    margin-left: 1px;
+    color: #FFFFFF;
+}
+h3{ /* configura o h3 */
+    margin-top: 50px;
+    margin-left: 20px;
+    color: #FFFFFF;
+}
+p{
+    margin-left: 20px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-right: 100px;
+}
+.minhadiv{ /*nome da class dos botões */
+    justify-content: center;
+    align-items: center;
+}
+
+h1{ /* configuração do h1 */
+    color: white;
+    margin-left: 150px;
+    margin-top: -85px;
+}
+
+
+.loja img {
+    border-radius: 0%;
+}
+
+.links{
+    color: #DC143C;
+    margin-top: 60px;
+    background-color: black;
+    
+}
+
+.linkss{
+    margin-top: 70px;
+    margin-left: -25px;
+}
+
+.roupas {
+    width: 250px;
+}
+
+
+
+/* daqui para baixo uzei o chat gpt pois não sei fazer uma parte disso então utilizei ele para aprender e modifiquei tudo que ele fez para a forma que eu gostaria que ficasse */
+
+header {
+    text-align: center;
+    padding: 25px 0;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #fff; /* Cor de fundo branca para o contêiner principal */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(109, 99, 99, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.pay-button {
+    background-color: #ce0404; /* Cor de fundo vermelha para o botão de pagamento */
+    color: #fff; /* Cor do texto branca para o botão de pagamento */
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.pay-button:hover {
+    background-color: #a10404; /* Cor de fundo vermelha mais escura no hover */
+}
+
